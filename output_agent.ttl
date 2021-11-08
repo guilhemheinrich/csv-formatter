@@ -1,0 +1,28 @@
+PREFIX foaf: <http://xmlns.com/foaf/spec/>  
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX dcterms: <http://purl.org/dc/terms/>  
+PREFIX agent: <http://www.phenome-fppn.fr/id/agent/> 
+
+agent:llca rdf:type rdf:type:Person .
+agent:llca foaf:mbox "cabrera@supagro.inra.fr"^^xsd:string .
+agent:llca foaf:firstName "Llorenc"^^xsd:string .
+agent:llca foaf:lastName "Cabrera"^^xsd:string .
+
+agent:rncs rdf:type rdf:type:Person .
+agent:rncs foaf:mbox "chapuis@supagro.inra.fr"^^xsd:string .
+agent:rncs foaf:firstName "Romain"^^xsd:string .
+agent:rncs foaf:lastName "Chapuis"^^xsd:string .
+
+agent:guest rdf:type rdf:type:Person .
+agent:guest foaf:mbox "guestphis@supagro.inra.fr"^^xsd:string .
+agent:guest foaf:firstName "guest"^^xsd:string .
+agent:guest foaf:lastName "guest"^^xsd:string .
+
+agent:phis rdf:type rdf:type:Organization .
+
+agent:diaphen rdf:type rdf:type:Organization .
+
+
+

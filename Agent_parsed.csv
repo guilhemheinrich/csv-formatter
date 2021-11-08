@@ -1,0 +1,6 @@
+uri,Agent,email,firstName,lastName
+llca,Person,cabrera@supagro.inra.fr,Llorenc,Cabrera
+rncs,Person,chapuis@supagro.inra.fr,Romain,Chapuis
+guest,Person,guestphis@supagro.inra.fr,guest,guest
+phis,Organization,,,
+diaphen,Organization,,,

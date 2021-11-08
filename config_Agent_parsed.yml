@@ -1,0 +1,13 @@
+---
+prefix: |
+  PREFIX foaf: <http://xmlns.com/foaf/spec/> 
+  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+  PREFIX dcterms: <http://purl.org/dc/terms/> 
+  PREFIX agent: <http://www.phenome-fppn.fr/id/agent/> 
+associativeRules:
+- agent:{uri} rdf:type rdf:type:{Agent} .
+- agent:{uri} foaf:mbox "{email}"^^xsd:string .
+- agent:{uri} foaf:firstName "{firstName}"^^xsd:string .
+- agent:{uri} foaf:lastName "{lastName}"^^xsd:string .
